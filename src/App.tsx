@@ -6,13 +6,11 @@ import Cabecalho from './componentes/Cabecalho';
 
 function App() {
   return (
-    <>
       <ThemeProvider theme={thema}>
         <StyledGlobal />
         <Cabecalho />
         <Formulario />
       </ThemeProvider>
-    </>
   );
 }
 

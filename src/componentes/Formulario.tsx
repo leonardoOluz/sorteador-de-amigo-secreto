@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const FormularioAmigoSecreto = styled.form`
-    /* height: 500px; */
+    height: 500px;
     background-color: ${(props) => { return props.theme.colors.creme }};
 `
 
