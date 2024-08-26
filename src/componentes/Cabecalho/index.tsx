@@ -1,11 +1,11 @@
-import './estilos.css'
+import ContainerCabecalho from "./styles"
 
 const Cabecalho = () => {
     return (
-        <header className="cabecalho">
-            <div className="imagem-logo" role="img" aria-label='Logo do Sorteador'></div>
-            <img className='participante' src="/imagens/participante.png" alt="Participante com um presente na mão" />
-        </header>
+        <ContainerCabecalho className="cabecalho">
+            <div role="img" aria-label='Logo do Sorteador'></div>
+            <img src="/imagens/participante.png" alt="Participante com um presente na mão" />
+        </ContainerCabecalho>
     )
 }
 
